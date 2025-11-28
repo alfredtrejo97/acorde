@@ -1,0 +1,39 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+/* Tipografías personalizadas */
+@font-face {
+	font-family: 'Cascadia Code';
+	src: url('$lib/assets/fonts/CascadiaCode-VariableFont_wght.ttf') format('truetype');
+	font-weight: 100 900;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Roboto Flex';
+	src: url('$lib/assets/fonts/times.ttf') format('truetype');
+	font-weight: 100 900;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Times';
+	src: url('$lib/assets/fonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+	font-weight: 100 900;
+	font-display: swap;
+}
+
+/* Clases de tipografías */
+.font-cascadia {
+	font-family: 'Cascadia Code', monospace;
+}
+
+.font-roboto-flex {
+	font-family: 'Roboto Flex', sans-serif;
+}
+
+.font-times {
+	font-family: 'Times', serif;
+}
