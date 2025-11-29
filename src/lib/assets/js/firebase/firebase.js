@@ -7,12 +7,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyCd2PghnjPRmCLbCjLMUiB2pKuFLiM5QUo",
-    authDomain: "acorde-853b0.firebaseapp.com",
-    projectId: "acorde-853b0",
-    storageBucket: "acorde-853b0.firebasestorage.app",
-    messagingSenderId: "329799533108",
-    appId: "1:329799533108:web:5960abece81ea840880061"
+    apiKey: "AIzaSyAur_eYvY-JNpeniaKShYgcGwkBUp5mITE",
+    authDomain: "acorde-3c810.firebaseapp.com",
+    projectId: "acorde-3c810",
+    storageBucket: "acorde-3c810.firebasestorage.app",
+    messagingSenderId: "345292867550",
+    appId: "1:345292867550:web:6cfac88c3e3d77b722ff4f"
 };
 
 // Initialize Firebase
