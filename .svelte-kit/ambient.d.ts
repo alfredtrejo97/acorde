@@ -35,22 +35,25 @@ declare module '$env/static/private' {
 	export const SHLVL: string;
 	export const HOME: string;
 	export const CHROME_DESKTOP: string;
-	export const OLDPWD: string;
 	export const TERM_PROGRAM_VERSION: string;
 	export const DESKTOP_SESSION: string;
 	export const NVM_BIN: string;
 	export const npm_package_json: string;
 	export const NVM_INC: string;
+	export const GIO_LAUNCHED_DESKTOP_FILE: string;
 	export const COREPACK_ROOT: string;
 	export const GNOME_SHELL_SESSION_MODE: string;
 	export const GTK_MODULES: string;
 	export const VSCODE_GIT_ASKPASS_MAIN: string;
 	export const VSCODE_GIT_ASKPASS_NODE: string;
+	export const MANAGERPID: string;
 	export const SYSTEMD_EXEC_PID: string;
+	export const IM_CONFIG_CHECK_ENV: string;
 	export const VSCODE_PYTHON_AUTOACTIVATE_GUARD: string;
 	export const GSM_SKIP_SSH_AGENT_WORKAROUND: string;
 	export const DBUS_SESSION_BUS_ADDRESS: string;
 	export const COLORTERM: string;
+	export const GIO_LAUNCHED_DESKTOP_FILE_PID: string;
 	export const GNOME_KEYRING_CONTROL: string;
 	export const NVM_DIR: string;
 	export const DEBUGINFOD_URLS: string;
@@ -59,6 +62,7 @@ declare module '$env/static/private' {
 	export const COREPACK_ENABLE_DOWNLOAD_PROMPT: string;
 	export const LOGNAME: string;
 	export const pnpm_config_verify_deps_before_run: string;
+	export const JOURNAL_STREAM: string;
 	export const _: string;
 	export const MEMORY_PRESSURE_WATCH: string;
 	export const XDG_SESSION_CLASS: string;
@@ -69,10 +73,10 @@ declare module '$env/static/private' {
 	export const npm_config_node_gyp: string;
 	export const PATH: string;
 	export const SESSION_MANAGER: string;
+	export const INVOCATION_ID: string;
 	export const npm_package_name: string;
 	export const NODE: string;
 	export const XDG_MENU_PREFIX: string;
-	export const GNOME_TERMINAL_SCREEN: string;
 	export const GNOME_SETUP_DISPLAY: string;
 	export const XDG_RUNTIME_DIR: string;
 	export const GDK_BACKEND: string;
@@ -84,9 +88,7 @@ declare module '$env/static/private' {
 	export const XDG_SESSION_DESKTOP: string;
 	export const XAUTHORITY: string;
 	export const LS_COLORS: string;
-	export const SBX_CHROME_API_RQ: string;
 	export const VSCODE_GIT_IPC_HANDLE: string;
-	export const GNOME_TERMINAL_SERVICE: string;
 	export const TERM_PROGRAM: string;
 	export const npm_lifecycle_script: string;
 	export const SSH_AUTH_SOCK: string;
@@ -111,8 +113,8 @@ declare module '$env/static/private' {
 	export const npm_command: string;
 	export const PNPM_SCRIPT_SRC_DIR: string;
 	export const MEMORY_PRESSURE_WRITE: string;
-	export const VTE_VERSION: string;
 	export const INIT_CWD: string;
+	export const NODE_ENV: string;
 }
 
 /**
@@ -151,22 +153,25 @@ declare module '$env/dynamic/private' {
 		SHLVL: string;
 		HOME: string;
 		CHROME_DESKTOP: string;
-		OLDPWD: string;
 		TERM_PROGRAM_VERSION: string;
 		DESKTOP_SESSION: string;
 		NVM_BIN: string;
 		npm_package_json: string;
 		NVM_INC: string;
+		GIO_LAUNCHED_DESKTOP_FILE: string;
 		COREPACK_ROOT: string;
 		GNOME_SHELL_SESSION_MODE: string;
 		GTK_MODULES: string;
 		VSCODE_GIT_ASKPASS_MAIN: string;
 		VSCODE_GIT_ASKPASS_NODE: string;
+		MANAGERPID: string;
 		SYSTEMD_EXEC_PID: string;
+		IM_CONFIG_CHECK_ENV: string;
 		VSCODE_PYTHON_AUTOACTIVATE_GUARD: string;
 		GSM_SKIP_SSH_AGENT_WORKAROUND: string;
 		DBUS_SESSION_BUS_ADDRESS: string;
 		COLORTERM: string;
+		GIO_LAUNCHED_DESKTOP_FILE_PID: string;
 		GNOME_KEYRING_CONTROL: string;
 		NVM_DIR: string;
 		DEBUGINFOD_URLS: string;
@@ -175,6 +180,7 @@ declare module '$env/dynamic/private' {
 		COREPACK_ENABLE_DOWNLOAD_PROMPT: string;
 		LOGNAME: string;
 		pnpm_config_verify_deps_before_run: string;
+		JOURNAL_STREAM: string;
 		_: string;
 		MEMORY_PRESSURE_WATCH: string;
 		XDG_SESSION_CLASS: string;
@@ -185,10 +191,10 @@ declare module '$env/dynamic/private' {
 		npm_config_node_gyp: string;
 		PATH: string;
 		SESSION_MANAGER: string;
+		INVOCATION_ID: string;
 		npm_package_name: string;
 		NODE: string;
 		XDG_MENU_PREFIX: string;
-		GNOME_TERMINAL_SCREEN: string;
 		GNOME_SETUP_DISPLAY: string;
 		XDG_RUNTIME_DIR: string;
 		GDK_BACKEND: string;
@@ -200,9 +206,7 @@ declare module '$env/dynamic/private' {
 		XDG_SESSION_DESKTOP: string;
 		XAUTHORITY: string;
 		LS_COLORS: string;
-		SBX_CHROME_API_RQ: string;
 		VSCODE_GIT_IPC_HANDLE: string;
-		GNOME_TERMINAL_SERVICE: string;
 		TERM_PROGRAM: string;
 		npm_lifecycle_script: string;
 		SSH_AUTH_SOCK: string;
@@ -227,8 +231,8 @@ declare module '$env/dynamic/private' {
 		npm_command: string;
 		PNPM_SCRIPT_SRC_DIR: string;
 		MEMORY_PRESSURE_WRITE: string;
-		VTE_VERSION: string;
 		INIT_CWD: string;
+		NODE_ENV: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;
 	}

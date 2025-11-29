@@ -2,6 +2,7 @@
     import { onMount } from "svelte";
     import { getAllProducts } from "$lib/assets/js/crud/productsCrud";
     import { getAllCategories } from "$lib/assets/js/crud/categoriesCrud";
+    import ProductCard from "$lib/components/ProductView.svelte"; // Importar el componente
 
     let products = [];
     let filteredProducts = [];
@@ -59,14 +60,11 @@
         filterProducts();
     }
 
-    // Format price
-    const formatPrice = (price) => {
-        return new Intl.NumberFormat("es-CO", {
-            style: "currency",
-            currency: "COP",
-            minimumFractionDigits: 0,
-        }).format(price);
-    };
+    // Función opcional para manejar agregar al carrito (si la necesitas)
+    function handleAddToCart(product) {
+        console.log("Agregar al carrito:", product);
+        // Aquí puedes agregar la lógica del carrito
+    }
 </script>
 
 <svelte:head>
@@ -172,85 +170,7 @@
                     class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
                 >
                     {#each filteredProducts as product}
-                        <div
-                            class="bg-white rounded-lg overflow-hidden shadow hover:shadow-lg transition"
-                        >
-                            <div
-                                class="h-48 bg-gray-100 flex items-center justify-center overflow-hidden"
-                            >
-                                {#if product.Imagen}
-                                    <img
-                                        src={product.Imagen}
-                                        alt={product.Nombre}
-                                        class="w-full h-full object-cover"
-                                        on:error={(e) => {
-                                            e.target.src =
-                                                "https://via.placeholder.com/300x300?text=Imagen+no+disponible";
-                                        }}
-                                    />
-                                {:else}
-                                    <div class="text-center p-4">
-                                        <i
-                                            class="fas fa-image text-4xl text-gray-300 mb-2"
-                                        ></i>
-                                        <p
-                                            class="font-roboto-flex text-gray-400 text-sm"
-                                        >
-                                            Sin imagen
-                                        </p>
-                                    </div>
-                                {/if}
-                            </div>
-                            <div class="p-4">
-                                <div
-                                    class="flex justify-between items-start mb-2"
-                                >
-                                    <h3
-                                        class="font-roboto-flex font-semibold text-lg text-slate-900"
-                                    >
-                                        {product.Nombre}
-                                    </h3>
-                                    <span
-                                        class="font-times font-bold text-slate-900"
-                                    >
-                                        {formatPrice(product.PrecioVenta)}
-                                    </span>
-                                </div>
-
-                                {#if product.CategoriaNombre}
-                                    <span
-                                        class="inline-block bg-slate-100 text-slate-700 text-xs px-2 py-1 rounded mb-3"
-                                    >
-                                        {product.CategoriaNombre}
-                                    </span>
-                                {/if}
-
-                                {#if product.Descripcion}
-                                    <p
-                                        class="font-roboto-flex text-sm text-slate-600 mb-3 line-clamp-2"
-                                    >
-                                        {product.Descripcion}
-                                    </p>
-                                {/if}
-
-                                <div
-                                    class="flex items-center justify-between mt-4"
-                                >
-                                    <span
-                                        class="text-sm font-roboto-flex text-slate-500"
-                                    >
-                                        {product.Stock} en stock
-                                    </span>
-                                    <button
-                                        class="font-roboto-flex bg-slate-900 text-white px-4 py-2 rounded hover:bg-slate-800 transition text-sm"
-                                    >
-                                        <i class="fas fa-shopping-cart mr-2"
-                                        ></i>
-                                        Agregar
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+                        <ProductCard {product} onAddToCart={handleAddToCart} />
                     {/each}
                 </div>
             {/if}
