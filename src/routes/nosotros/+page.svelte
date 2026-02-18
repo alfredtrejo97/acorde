@@ -33,24 +33,38 @@
                     <p
                         class="font-roboto-flex text-slate-600 mb-4 leading-relaxed"
                     >
-                        Acorde nació con la visión de ofrecer productos de
-                        calidad excepcional a nuestros clientes. Desde nuestros
-                        inicios, nos hemos comprometido con la excelencia en
-                        cada aspecto de nuestro negocio.
+                        ACORDE no nació en una oficina, ni de una idea de
+                        negocio. Nació en una casa, viendo a mi madre vender
+                        perfumes de catálogo. Crecí entre aromas, probadores en
+                        la mesa, entiendo algo que solo se aprende con el
+                        tiempo:
+                        <strong>
+                            Los perfumes no se huelen, se recuerdan.
+                        </strong>
                     </p>
                     <p
                         class="font-roboto-flex text-slate-600 mb-4 leading-relaxed"
                     >
-                        Con más de una década de experiencia, hemos construido
-                        una reputación sólida basada en la confianza, la calidad
-                        y el servicio al cliente. Cada producto que ofrecemos es
-                        cuidadosamente seleccionado para garantizar la
-                        satisfacción de nuestros clientes.
+                        Cada fragancia marcaba un momento, Un abrazo antes de
+                        salir, Una celebración, Un día cualquiera que terminó
+                        siendo especial.
+                        <br />
+                        Con los años comprendí que un aroma puede regresar a una
+                        etapa completa de la vida en un solo instante. Puede traerte
+                        de vuelta a la infancia, a una persona, a una version de
+                        ti que creías olvidada.
                     </p>
                     <p class="font-roboto-flex text-slate-600 leading-relaxed">
-                        Hoy en día, continuamos innovando y mejorando nuestros
-                        servicios para brindar la mejor experiencia posible a
-                        nuestros clientes.
+                        Por eso se llama <strong>ACORDE.</strong> Porque así
+                        como en la perfumería, un acorde es la unión perfecta de
+                        notas que crean una sensación única, tambien los
+                        recuerdos están formados por emociones, personas y
+                        momentos que, Al juntarse, Permanecen para siempre.
+                        <br />
+                        Acorde es ese legado hecho presente. No elegimos un perfume
+                        solo para oler bien... lo elegimos para ser recordados. Por
+                        que la memoria se desvanece, pero los aromas siempre encuentran
+                        la forma de volver.
                     </p>
                 </div>
             </div>
@@ -73,9 +87,16 @@
                         Integridad
                     </h3>
                     <p class="font-roboto-flex text-slate-600 leading-relaxed">
-                        Actuamos con honestidad y transparencia en todas
-                        nuestras operaciones, manteniendo los más altos
-                        estándares éticos.
+                        Nos comportamos con honestidad y claridad en todo lo que
+                        hacemos, ciudando siempre actuar de manera correcta y
+                        respetuosa con cada persona que confía en nosotros.
+                        <br />
+                        <small class="italic"
+                            >"Se necesitan 20 años para construir una reputación
+                            y cinco minutos para arruinarla." - <strong
+                                >Warren Buffett</strong
+                            ></small
+                        >
                     </p>
                 </div>
                 <div class="p-8 border-l-4 border-slate-900">
@@ -85,8 +106,10 @@
                         Excelencia
                     </h3>
                     <p class="font-roboto-flex text-slate-600 leading-relaxed">
-                        Nos esforzamos constantemente por mejorar y ofrecer lo
-                        mejor en calidad, servicio y atención al cliente.
+                        No buscamos ser perfectos. buscamos hacerlo cada vez
+                        mejor. Cuidamos cada detalle, desde la selección hasta
+                        la entrega, para que cada experiencia sea tan especial
+                        como el recuerdo que crea.
                     </p>
                 </div>
                 <div class="p-8 border-l-4 border-slate-900">
@@ -96,43 +119,12 @@
                         Innovación
                     </h3>
                     <p class="font-roboto-flex text-slate-600 leading-relaxed">
-                        Buscamos constantemente nuevas formas de mejorar
-                        nuestros productos y servicios para satisfacer las
-                        necesidades cambiantes de nuestros clientes.
+                        Escuchamos, aprendemos y evolucionamos constamente. Nos
+                        adaptamos a lo que sienten nuestros clientes para
+                        ofrecer algo más que productos: nuevas formas de vivir y
+                        recordar aromas.
                     </p>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Team Section -->
-    <section class="py-16">
-        <div class="max-w-7xl mx-auto px-6">
-            <h2
-                class="font-times text-4xl font-bold text-center text-slate-900 mb-16"
-            >
-                Nuestro Equipo
-            </h2>
-            <div class="grid md:grid-cols-4 gap-8">
-                {#each Array(4) as _, i}
-                    <div class="text-center">
-                        <div
-                            class="bg-slate-300 rounded-full h-40 w-40 mx-auto mb-4 flex items-center justify-center"
-                        >
-                            <p class="font-cascadia text-slate-600">
-                                Miembro {i + 1}
-                            </p>
-                        </div>
-                        <h3
-                            class="font-roboto-flex font-bold text-slate-900 mb-2"
-                        >
-                            Nombre Miembro {i + 1}
-                        </h3>
-                        <p class="font-roboto-flex text-sm text-slate-600">
-                            Posición / Rol
-                        </p>
-                    </div>
-                {/each}
             </div>
         </div>
     </section>
@@ -140,7 +132,7 @@
     <!-- Stats Section -->
     <section class="bg-slate-900 text-white py-16">
         <div class="max-w-7xl mx-auto px-6">
-            <div class="grid md:grid-cols-4 gap-8 text-center">
+            <div class="grid md:grid-cols-3 gap-8 text-center">
                 <div>
                     <p class="font-times text-5xl font-bold mb-2">10+</p>
                     <p class="font-roboto-flex text-slate-300">
@@ -156,12 +148,6 @@
                 <div>
                     <p class="font-times text-5xl font-bold mb-2">500+</p>
                     <p class="font-roboto-flex text-slate-300">Productos</p>
-                </div>
-                <div>
-                    <p class="font-times text-5xl font-bold mb-2">24/7</p>
-                    <p class="font-roboto-flex text-slate-300">
-                        Soporte Disponible
-                    </p>
                 </div>
             </div>
         </div>

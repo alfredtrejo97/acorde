@@ -59,8 +59,8 @@
                             </h4>
                             <p class="font-roboto-flex text-slate-600">
                                 Calle Principal 123<br />
-                                Ciudad, Estado 12345<br />
-                                País
+                                Pasto, Nariño<br />
+                                Colombia
                             </p>
                         </div>
 
@@ -71,7 +71,7 @@
                                 📞 Teléfono
                             </h4>
                             <p class="font-roboto-flex text-slate-600">
-                                +1 (555) 123-4567
+                                (+57) 319 508 7461
                             </p>
                         </div>
 
@@ -82,7 +82,7 @@
                                 ✉️ Email
                             </h4>
                             <p class="font-roboto-flex text-slate-600">
-                                info@acorde.com
+                                acordeadmon1997@gmail.com
                             </p>
                         </div>
 
@@ -93,10 +93,7 @@
                                 Horario de Atención
                             </h4>
                             <p class="font-roboto-flex text-slate-600 mb-2">
-                                Lunes - Viernes: 9:00 AM - 6:00 PM
-                            </p>
-                            <p class="font-roboto-flex text-slate-600 mb-2">
-                                Sábado: 10:00 AM - 4:00 PM
+                                Lunes - Viernes: 9:30 AM - 7:00 PM
                             </p>
                             <p class="font-roboto-flex text-slate-600">
                                 Domingo: Cerrado
