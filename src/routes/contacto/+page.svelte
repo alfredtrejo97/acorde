@@ -58,7 +58,7 @@
                                 📍 Dirección
                             </h4>
                             <p class="font-roboto-flex text-slate-600">
-                                Calle Principal 123<br />
+                                Carrera 23 #14-38 Calle del colorado<br />
                                 Pasto, Nariño<br />
                                 Colombia
                             </p>
@@ -216,9 +216,15 @@
             <div
                 class="bg-slate-300 rounded-lg h-96 flex items-center justify-center"
             >
-                <p class="font-cascadia text-slate-600">
-                    Mapa interactivo aquí
-                </p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.9261031860315!2d-77.2838222261476!3d1.2117260620065866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e2ed483677c6d13%3A0xdd58dc3ca3bd815b!2sCra.%2023%20%2314-38%2C%20Pasto%2C%20Nari%C3%B1o!5e0!3m2!1ses-419!2sco!4v1771459195539!5m2!1ses-419!2sco"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    class="w-full h-full"
+                    title="Ubicación de Acorde Perfumería"
+                ></iframe>
             </div>
         </div>
     </section>

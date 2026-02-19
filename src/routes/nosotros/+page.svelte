@@ -130,24 +130,14 @@
     </section>
 
     <!-- Stats Section -->
-    <section class="bg-slate-900 text-white py-16">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid md:grid-cols-3 gap-8 text-center">
+    <section class="bg-slate-900 text-white py-6">
+        <div class="mx-auto px-6">
+            <div class="grid md:grid-cols-1 gap-8 text-center">
                 <div>
-                    <p class="font-times text-5xl font-bold mb-2">10+</p>
+                    <p class="font-times text-5xl font-bold mb-2">5+</p>
                     <p class="font-roboto-flex text-slate-300">
                         Años de Experiencia
                     </p>
-                </div>
-                <div>
-                    <p class="font-times text-5xl font-bold mb-2">5000+</p>
-                    <p class="font-roboto-flex text-slate-300">
-                        Clientes Satisfechos
-                    </p>
-                </div>
-                <div>
-                    <p class="font-times text-5xl font-bold mb-2">500+</p>
-                    <p class="font-roboto-flex text-slate-300">Productos</p>
                 </div>
             </div>
         </div>
