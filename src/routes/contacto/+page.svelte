@@ -55,7 +55,8 @@
                             <h4
                                 class="font-roboto-flex font-semibold text-slate-900 mb-2"
                             >
-                                📍 Dirección
+                                <i class="fas fa-map-marker-alt"></i>
+                                Dirección
                             </h4>
                             <p class="font-roboto-flex text-slate-600">
                                 Carrera 23 #14-38 Calle del colorado<br />
@@ -64,25 +65,39 @@
                             </p>
                         </div>
 
-                        <div class="mb-8">
-                            <h4
+                        <div class="mb-8 flex flex-col">
+                            <a
+                                href="mailto:acordeadmon1997@gmail.com"
                                 class="font-roboto-flex font-semibold text-slate-900 mb-2"
                             >
-                                📞 Teléfono
-                            </h4>
-                            <p class="font-roboto-flex text-slate-600">
-                                (+57) 319 508 7461
-                            </p>
+                                <i class="fas fa-envelope"></i>
+                                Correo Electrónico
+                            </a>
+                            <a
+                                href="https://www.instagram.com/acorde___/"
+                                class="font-roboto-flex font-semibold text-slate-900 mb-2"
+                            >
+                                <i class="fab fa-instagram"></i>
+                                Instagram
+                            </a>
+                            <a
+                                href="https://www.tiktok.com/@alfredtrejo"
+                                class="font-roboto-flex font-semibold text-slate-900 mb-2"
+                            >
+                                <i class="fab fa-tiktok"></i>
+                                TikTok
+                            </a>
                         </div>
 
                         <div class="mb-8">
                             <h4
                                 class="font-roboto-flex font-semibold text-slate-900 mb-2"
                             >
-                                ✉️ Email
+                                <i class="fas fa-phone"></i>
+                                Teléfono
                             </h4>
                             <p class="font-roboto-flex text-slate-600">
-                                acordeadmon1997@gmail.com
+                                (+57) 319 508 7461
                             </p>
                         </div>
 
@@ -90,6 +105,7 @@
                             <h4
                                 class="font-roboto-flex font-semibold text-slate-900 mb-4"
                             >
+                                <i class="fas fa-clock"></i>
                                 Horario de Atención
                             </h4>
                             <p class="font-roboto-flex text-slate-600 mb-2">
